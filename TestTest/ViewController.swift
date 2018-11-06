@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var secondCommit = "Second Commit"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        print("Duh Hellooo")
     }
 
     override func didReceiveMemoryWarning() {
